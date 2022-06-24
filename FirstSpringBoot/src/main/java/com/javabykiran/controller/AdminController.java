@@ -12,6 +12,10 @@ public class AdminController {
 		return "Hi, This is the first srping boot project";
 
 	}
+	@GetMapping("/getvalue")
+	public int getValue() {
+		return 8+2;
+	}
 
 
 }
